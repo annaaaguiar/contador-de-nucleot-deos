@@ -19,7 +19,7 @@ def main():
     st.title("Contador de Nucleotídeos de DNA")
 
     #upload arquivo
-    uploaded_file = st.file_uploader("Ou faça upload de um arquivo de texto com a sequência de DNA", type=["txt"])
+    uploaded_file = st.file_uploader("Faça o upload de um arquivo de texto com a sequência de DNA", type=["txt"])
 
     # armazenena sequência de DNA
     dna_sequence = ""
